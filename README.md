@@ -1,7 +1,7 @@
 
-## 🎮 Code Explanation
+## Code Explanation
 
-### 🧩 Part 1: Utility Functions & Game Setup  
+### Part 1: Utility Functions & Game Setup  
 This part defines the foundation of the game:
 
 - `initial_state()`: Creates a blank 3x3 board.  
@@ -15,7 +15,7 @@ This part defines the foundation of the game:
 
 ---
 
-### 🧠 Part 2: Minimax Algorithm  
+### Part 2: Minimax Algorithm  
 This part implements the basic Minimax algorithm, which simulates all possible future moves:
 
 - `max_value()` and `min_value()`: Recursively evaluate the board from AI and Human perspectives.  
@@ -23,7 +23,7 @@ This part implements the basic Minimax algorithm, which simulates all possible f
 
 ---
 
-### ⚡ Part 3: Minimax with Alpha-Beta Pruning  
+### Part 3: Minimax with Alpha-Beta Pruning  
 This part optimizes Minimax using alpha-beta pruning:
 
 - `max_value_ab()` and `min_value_ab()`: Skip branches that won’t affect the final decision using `alpha` (max lower bound) and `beta` (min upper bound).  
@@ -31,7 +31,7 @@ This part optimizes Minimax using alpha-beta pruning:
 
 ---
 
-### 🎮 Part 4: Game Playing Function  
+### Part 4: Game Playing Function  
 This part handles the gameplay loop:
 
 - Alternates between Human and AI turns.  
@@ -42,7 +42,7 @@ This part handles the gameplay loop:
 
 ---
 
-### 🧪 Part 5: Game Comparison  
+### Part 5: Game Comparison  
 This part runs both AIs automatically and compares their performance:
 
 - `compare_full_game()`: Plays two full games — one with Minimax and one with Alpha-Beta.  
@@ -50,7 +50,7 @@ This part runs both AIs automatically and compares their performance:
 
 ---
 
-## 🤖 Minimax vs Alpha-Beta Pruning
+## Minimax vs Alpha-Beta Pruning
 
 | Feature        | Minimax            | Alpha-Beta Pruning              |
 |----------------|--------------------|----------------------------------|
